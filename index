@@ -899,7 +899,7 @@ function syncSummarySheet(allData) {
     // =========================================================================
     // นำลิงก์ Web App URL ที่ได้จากการ Deploy ไฟล์ Code.gs (ลงท้ายด้วย /exec) มาวางในเครื่องหมายคำพูดด้านล่าง
     // เพื่อให้ทุกคนในทีมที่เปิดเว็บจาก GitHub Pages ซิงค์ข้อมูลเข้า Google Sheets เดียวกันอัตโนมัติโดยไม่ต้องตั้งค่าซ้ำ!
-    const DEFAULT_GAS_WEB_APP_URL = "";
+    const DEFAULT_GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbz7NW_7qvBuZvKMahW3gj6YhJP8lohMi0DSkMjk3inIzJQi9vdKTROZHwIklBZhL7_t/exec";
 
     // =========================================================================
     // 1. MASTER METADATA & DEFAULT TEMPLATE DATA FOR ALL 13 ACTIVITIES
